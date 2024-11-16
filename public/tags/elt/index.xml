@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ELT | Hugo Academic CV Theme</title>
+    <title>ELT | Delvin So&#39;s Portfolio</title>
     <link>http://localhost:1313/tags/elt/</link>
       <atom:link href="http://localhost:1313/tags/elt/index.xml" rel="self" type="application/rss+xml" />
     <description>ELT</description>
@@ -17,7 +17,7 @@
       <link>http://localhost:1313/project/jobs-elt/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/jobs-elt/</guid>
-      <description>&lt;p&gt;An ELT pipeline orchestrated using Dagster to extract job postings from various sites, load into a PostGreSQL database and transformed using dbt.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A containerized ELT pipeline orchestrated using Dagster to extract job postings from various sites, load into a PostGreSQL database and transformed using dbt, every night.&lt;/p&gt;</description>
     </item>
     
   </channel>

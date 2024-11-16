@@ -33,18 +33,14 @@ profiles:
   - icon: at-symbol
     url: 'mailto:your-email@example.com'
     label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/GetResearchDev
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/delvinso
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/delvinso/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.ca/citations?user=lrnDS2wAAAAJ&hl=en
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/
 
 interests:
   - Data Engineering
@@ -174,4 +170,4 @@ Hi! :wave: My name is Delvin and I'm currently in my last year of a second degre
 
 I previously worked as a Bioinformatician and Data Scientist at the Centre for Computational Medicine at The Hospital for Sick Children. There, I consulted and performed data analysis on various research projects for researchers and clinical scientists, leading to several published articles as well as contributed to back-end software development.
 
-My personal interests have led me to seeking work on projects to make data usable and valuable for others by collecting, transforming, and delivering it.
+With several years of experience working with data, I have developed a passion for collecting transforming, and delivering data with the goal of ensuring data is a valuable asset for decision makers to enable insights and drive innovation.  

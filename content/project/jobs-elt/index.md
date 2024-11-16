@@ -1,12 +1,15 @@
 ---
-title: Jobs ELT
+title: Jobs ETL
 date: 2024-07-01
 # external_link: https://github.com/pytorch/pytorch
 tags:
   - Data Engineering
-  - ELT 
+  - ETL 
 ---
 
-A containerized ELT pipeline orchestrated using Dagster to extract job postings from various sites, load into a PostGreSQL database and transformed using dbt, every night. 
+![test](tech-career-insights.gif)
+
+A pipeline orchestrated using Dagster to extract job postings from various job boards, deduplicated, loaded into a PostGreSQL database and transformed using dbt and OpenAI, every night. 
+
 
 <!--more-->

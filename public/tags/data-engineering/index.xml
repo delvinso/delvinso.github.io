@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Engineering | Hugo Academic CV Theme</title>
+    <title>Data Engineering | Delvin So&#39;s Portfolio</title>
     <link>http://localhost:1313/tags/data-engineering/</link>
       <atom:link href="http://localhost:1313/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Engineering</description>
@@ -13,19 +13,34 @@
     </image>
     
     <item>
-      <title>Jobs ELT</title>
+      <title>Jobs ETL</title>
       <link>http://localhost:1313/project/jobs-elt/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/jobs-elt/</guid>
-      <description>&lt;p&gt;An ELT pipeline orchestrated using Dagster to extract job postings from various sites, load into a PostGreSQL database and transformed using dbt.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>LoA-Lens (Lost Ark Lens)</title>
-      <link>http://localhost:1313/project/loa-lens/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/loa-lens/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;test&#34;
+           src=&#34;http://localhost:1313/project/jobs-elt/tech-career-insights.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;A pipeline orchestrated using Dagster to extract job postings from various job boards, deduplicated, loaded into a PostGreSQL database and transformed using dbt and OpenAI, every night.&lt;/p&gt;</description>
     </item>
     
   </channel>
