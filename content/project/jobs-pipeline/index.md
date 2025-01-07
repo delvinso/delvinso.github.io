@@ -1,6 +1,6 @@
 ---
 title: Jobs ETL
-date: 2024-07-01
+date: 2025-01-04
 # external_link: https://github.com/pytorch/pytorch
 tags:
   - Data Engineering
