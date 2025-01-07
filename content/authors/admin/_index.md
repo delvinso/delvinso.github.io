@@ -170,4 +170,4 @@ Hi! :wave: My name is Delvin and I'm currently in my last year of a second degre
 
 I previously worked as a Bioinformatician and Data Scientist at the Centre for Computational Medicine at The Hospital for Sick Children. There, I consulted and performed data analysis on various research projects for researchers and clinical scientists, leading to several published articles as well as contributed to back-end software development.
 
-With several years of experience working with data, I have developed a passion for collecting transforming, and delivering data with the goal of ensuring data is a valuable asset for decision makers to enable insights and drive innovation.  
+With several years of experience working with data, I have developed a passion for collecting, transforming, and delivering information in ways that empower decision makers, foster insights, and drive innovation.
