@@ -35,10 +35,11 @@
     
     <item>
       <title>Jobs ETL</title>
-      <link>http://localhost:1313/project/jobs-elt/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/jobs-elt/</guid>
-      <description>&lt;p&gt;
+      <link>http://localhost:1313/project/jobs-etl/</link>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/jobs-etl/</guid>
+      <description>&lt;p&gt;A dashboard served by a pipeline orchestrated using Dagster to extract job postings from various job boards, deduplicated, loaded into a PostGreSQL database and transformed using dbt and OpenAI, every night.&lt;/p&gt;
+&lt;p&gt;
 
 
 
@@ -57,11 +58,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;test&#34;
-           src=&#34;http://localhost:1313/project/jobs-elt/tech-career-insights.gif&#34;
+           src=&#34;http://localhost:1313/project/jobs-etl/tech-career-insights.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;p&gt;A pipeline orchestrated using Dagster to extract job postings from various job boards, deduplicated, loaded into a PostGreSQL database and transformed using dbt and OpenAI, every night.&lt;/p&gt;</description>
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -277,7 +277,7 @@
 
 
 
-&lt;div id=&#34;chart-132586497&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-581297346&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -295,7 +295,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-132586497&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-581297346&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
