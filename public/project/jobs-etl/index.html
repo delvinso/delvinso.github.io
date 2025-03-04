@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: February 1, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: March 4, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="light">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -41,27 +41,7 @@
   
     
   
-  <meta name="description" content="A dashboard served by a pipeline orchestrated using Dagster to extract job postings from various job boards, deduplicated, loaded into a PostGreSQL database and transformed using dbt and OpenAI, every night.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-  
+  <meta name="description" content="A dashboard served by a pipeline orchestrated using Dagster to extract job postings from various job boards, deduplicate them, load into a PostgreSQL database, and transform via dbt and OpenAI each night. Additionally, a containerized FastAPI service behind NGINX provides secure RESTful endpoints exposing the pipeline outputs.
 " />
 
   
@@ -206,37 +186,17 @@
   <meta property="og:site_name" content="Delvin So&#39;s Portfolio" />
   <meta property="og:url" content="http://localhost:1313/project/jobs-etl/" />
   <meta property="og:title" content="Jobs ETL | Delvin So&#39;s Portfolio" />
-  <meta property="og:description" content="A dashboard served by a pipeline orchestrated using Dagster to extract job postings from various job boards, deduplicated, loaded into a PostGreSQL database and transformed using dbt and OpenAI, every night.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-  
+  <meta property="og:description" content="A dashboard served by a pipeline orchestrated using Dagster to extract job postings from various job boards, deduplicate them, load into a PostgreSQL database, and transform via dbt and OpenAI each night. Additionally, a containerized FastAPI service behind NGINX provides secure RESTful endpoints exposing the pipeline outputs.
 " /><meta property="og:image" content="http://localhost:1313/project/jobs-etl/featured.png" />
     <meta property="twitter:image" content="http://localhost:1313/project/jobs-etl/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2025-01-04T00:00:00&#43;00:00"
+        content="2025-03-04T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2025-01-04T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2025-03-04T00:00:00&#43;00:00">
   
 
   
@@ -266,8 +226,8 @@
     "http://localhost:1313/project/jobs-etl/featured.png"
   ],
   
-  "datePublished": "2025-01-04T00:00:00Z",
-  "dateModified": "2025-01-04T00:00:00Z",
+  "datePublished": "2025-03-04T00:00:00Z",
+  "dateModified": "2025-03-04T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -282,7 +242,7 @@
       "url": "http://localhost:1313/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "\u003cp\u003eA dashboard served by a pipeline orchestrated using Dagster to extract job postings from various job boards, deduplicated, loaded into a PostGreSQL database and transformed using dbt and OpenAI, every night.\u003c/p\u003e\n\u003cp\u003e\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\u003cfigure  \u003e\n  \u003cdiv class=\"flex justify-center\t\"\u003e\n    \u003cdiv class=\"w-100\" \u003e\u003cimg alt=\"test\"\n           src=\"/project/jobs-etl/tech-career-insights.gif\"\n           loading=\"lazy\" data-zoomable /\u003e\u003c/div\u003e\n  \u003c/div\u003e\u003c/figure\u003e\n\u003c/p\u003e"
+  "description": "\u003cp\u003eA dashboard served by a pipeline orchestrated using Dagster to extract job postings from various job boards, deduplicate them, load into a PostgreSQL database, and transform via dbt and OpenAI each night. Additionally, a containerized FastAPI service behind NGINX provides secure RESTful endpoints exposing the pipeline outputs.\u003c/p\u003e\n\u003c!-- ![test](tech-career-insights.gif) --\u003e"
 }
 </script>
 
@@ -1101,7 +1061,7 @@
       <h1 class="mt-2 text-4xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Jobs ETL</h1>
 
       <div class="mt-4 mb-16">
-      <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2"><span class="mr-1">Jan 4, 2025</span>
+      <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2"><span class="mr-1">Mar 4, 2025</span>
         
 
         
@@ -1118,6 +1078,41 @@
 
 
 
+<div class="">
+  
+  <a class="btn btn-outline-primary my-1" href="https://techcareerinsights.streamlit.app/" target="_blank" rel="noopener">Go to Project Site</a>
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
         </div>
       </div>
@@ -1140,9 +1135,9 @@
       
       
       
-      <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 720px; max-height: 256px;">
+      <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 720px; max-height: 274px;">
         <div style="position: relative">
-          <img src="/project/jobs-etl/featured_huec2839bdcd66c536d36fc75f5d903afd_400726_4fe20b9114a11cdc037ad70788d07dc1.webp" width="720" height="256" alt="" class="featured-image">
+          <img src="/project/jobs-etl/featured_hu268eec1bca69b93f583991644250565c_433240_10705e97d261718085edc1cced1f8183.webp" width="720" height="274" alt="" class="featured-image">
           
         </div>
       </div>
@@ -1152,36 +1147,14 @@
       
 
       <div class="prose prose-slate lg:prose-xl dark:prose-invert">
-        <p>A dashboard served by a pipeline orchestrated using Dagster to extract job postings from various job boards, deduplicated, loaded into a PostGreSQL database and transformed using dbt and OpenAI, every night.</p>
-<p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="flex justify-center	">
-    <div class="w-100" ><img alt="test"
-           src="/project/jobs-etl/tech-career-insights.gif"
-           loading="lazy" data-zoomable /></div>
-  </div></figure>
-</p>
+        <p>A dashboard served by a pipeline orchestrated using Dagster to extract job postings from various job boards, deduplicate them, load into a PostgreSQL database, and transform via dbt and OpenAI each night. Additionally, a containerized FastAPI service behind NGINX provides secure RESTful endpoints exposing the pipeline outputs.</p>
+<!-- ![test](tech-career-insights.gif) -->
       </div>
 
       
-  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-01-04T00:00:00.000Z">
+  <time class="mt-12 mb-8 block text-xs text-gray-500 ltr:text-right rtl:text-left dark:text-gray-400" datetime="2025-03-04T00:00:00.000Z">
     <span>Last updated on</span>
-    Jan 4, 2025</time>
+    Mar 4, 2025</time>
 
       <div class="container mx-auto prose prose-slate lg:prose-xl dark:prose-invert mt-5">
         
