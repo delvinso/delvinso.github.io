@@ -34,6 +34,15 @@
     </item>
     
     <item>
+      <title>ResuMatch</title>
+      <link>http://localhost:1313/project/resumatch/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/resumatch/</guid>
+      <description>&lt;p&gt;An AI driven resume-to-job matching system that uses Retrieval-Augmented Generation (RAG) to deliver personalized job recommendations based on a candidate’s actual skills and experience.&lt;/p&gt;
+&lt;!-- ![test](tech-career-insights.gif) --&gt;</description>
+    </item>
+    
+    <item>
       <title>Jobs ETL</title>
       <link>http://localhost:1313/project/jobs-etl/</link>
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
@@ -255,7 +264,7 @@
 
 
 
-&lt;div id=&#34;chart-893245176&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-748231569&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -273,7 +282,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-893245176&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-748231569&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

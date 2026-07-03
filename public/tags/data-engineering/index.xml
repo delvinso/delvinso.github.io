@@ -5,12 +5,21 @@
     <link>http://localhost:1313/tags/data-engineering/</link>
       <atom:link href="http://localhost:1313/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Engineering</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu68170e94a17a2a43d6dcb45cf0e8e589_3079_512x512_fill_lanczos_center_3.png</url>
       <title>Data Engineering</title>
       <link>http://localhost:1313/tags/data-engineering/</link>
     </image>
+    
+    <item>
+      <title>ResuMatch</title>
+      <link>http://localhost:1313/project/resumatch/</link>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/resumatch/</guid>
+      <description>&lt;p&gt;An AI driven resume-to-job matching system that uses Retrieval-Augmented Generation (RAG) to deliver personalized job recommendations based on a candidate’s actual skills and experience.&lt;/p&gt;
+&lt;!-- ![test](tech-career-insights.gif) --&gt;</description>
+    </item>
     
     <item>
       <title>Jobs ETL</title>

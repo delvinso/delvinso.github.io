@@ -55,6 +55,8 @@ education:
     date_end: 2025-12-31
     summary: |
       Select Courses:
+      - CPSC447 - Introduction to Visualization
+      - DSCI430 - Fairness, Accountability, Transparency and Ethics in Data Science
       - CPSC310 - Introduction to Software Engineering
       - CPSC320 - Intermediate Algorithm Design And Analysis
       - CPSC317 - Computer Networking
@@ -72,6 +74,16 @@ education:
     #   url: 'https://example.com'
 
 work:
+  - position: Scientific Data Assistant
+    company_name: IISD-ELA (International Institute for Sustainable Development - Experimental Lakes Area)
+    company_url: https://www.iisd.org/ela/
+    company_logo: ""
+    date_start: 2025-04-01
+    date_end: 2025-12-31
+    summary: |
+      Responsibilities include:
+      - Building and maintaining ETL pipelines in Python
+      - Explore, clean, and validate historical data in our PostgreSQL database
   - position: Clinical Research Assistant
     company_name: The Department of Surgery - The University of British Columbia
     company_url: ""
@@ -80,7 +92,8 @@ work:
     date_end: 2025-04-01
     summary: |
       Responsibilities include:
-      - working on automated data extraction from provincial breast cancer registries
+       - Assisting in automated data extraction from provincial breast cancer registries
+       - Performed experiments, fine-tuning several transformers to improve baseline models used in QA tasks
   - position: Bioinformatician/Data Scientist
     company_name: The Centre of Computational Medicine - The Hospital of Sick Children
     company_url: ""
@@ -163,8 +176,8 @@ awards:
 
 ## About Me
 
-Hi! :wave: I’m Delvin, currently in my final year of a second degree in Computer Science (BCS) at UBC.
+Hi! :wave: I’m Delvin, a recent graduate of a second degree in Computer Science (BCS) at UBC.
 
 Previously, I worked as a Bioinformatician and Data Scientist at the Centre for Computational Medicine at The Hospital for Sick Children, where I conducted data analyses for clinical and research teams—contributing to multiple published studies and backend software development.
 
-With several years of experience working with data, I’ve developed a strong passion for collecting, transforming, and delivering information that drives insight, innovation, and impact.
+With several years of handling data under my belt - whether it's pipelines or analysis, I’m passionate about turning raw information into meaningful insights that support decision making.
