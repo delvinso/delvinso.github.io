@@ -90,10 +90,10 @@ work:
     company_logo: ""
     date_start: 2024-09-01
     date_end: 2025-04-01
-    summary: |
-      Responsibilities include:
-       - Assisting in automated data extraction from provincial breast cancer registries
-       - Performed experiments, fine-tuning several transformers to improve baseline models used in QA tasks
+    # summary: |
+    #   Responsibilities include:
+    #    - Assisting in automated data extraction from provincial breast cancer registries
+    #    - Performed experiments, fine-tuning several transformers to improve baseline models used in QA tasks
   - position: Bioinformatician/Data Scientist
     company_name: The Centre of Computational Medicine - The Hospital of Sick Children
     company_url: ""

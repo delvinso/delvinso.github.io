@@ -85,12 +85,19 @@ sections:
 
 
   - block: collection
+    id: papers
     content:
       title: Recent Publications
-      text: "TBD - Check out my Google Scholar for now :smile:"
+      text: ""
+      count: 5
+      order: desc
+      archive:
+        enable: true
+        text: View all publications
+        link: publication/
       filters:
         folders:
-          - none #publication
+          - publication
         exclude_featured: false
     design:
       view: citation
